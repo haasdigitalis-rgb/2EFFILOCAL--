@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Stats from './components/Stats';
 import TrustSection from './components/TrustSection';
@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 font-sans transition-colors duration-300">
-      <Navbar />
+      <Navigation />
       <main>
         <Hero />
         <Stats />
@@ -33,4 +33,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
