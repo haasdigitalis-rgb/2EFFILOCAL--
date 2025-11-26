@@ -1,7 +1,7 @@
-import React from 'react';
+ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-// import './index.css'; // Désactivé pour utiliser Tailwind via CDN et éviter les erreurs de build
+// import './index.css'; // Build CSS désactivé, on utilise le CDN Tailwind dans index.html pour la production
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
