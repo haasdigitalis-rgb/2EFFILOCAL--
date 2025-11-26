@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Stats from './components/Stats';
@@ -33,4 +33,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
