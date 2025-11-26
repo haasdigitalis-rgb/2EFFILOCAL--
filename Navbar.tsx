@@ -37,7 +37,6 @@ const Navbar: React.FC = () => {
     }
   };
 
-  // Custom navigation handler to prevent URL hash changes causing routing errors
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     const targetId = href.replace('#', '');
