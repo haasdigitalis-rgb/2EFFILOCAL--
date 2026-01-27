@@ -9,6 +9,7 @@ import AuditSection from './components/AuditSection';
 import Services from './components/Services';
 import WhiteLabel from './components/WhiteLabel';
 import Reporting from './components/Reporting';
+import PressRelease from './components/PressRelease';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -26,6 +27,7 @@ function App() {
         <Services />
         <WhiteLabel />
         <Reporting />
+        <PressRelease />
         <Contact />
       </main>
       <Footer />

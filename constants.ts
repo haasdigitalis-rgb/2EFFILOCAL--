@@ -6,6 +6,7 @@ export const NAV_LINKS = [
   { name: 'Services', href: '#services' },
   { name: 'Audit Gratuit', href: '#audit' },
   { name: 'Marque Blanche', href: '#white-label' },
+  { name: 'Communiqué', href: '#communique' },
   { name: 'Contact', href: '#contact' },
 ];
 
